@@ -1,5 +1,6 @@
 package com.example.adrian.git.Date;
 
+import java.util.Calendar;
 import java.util.Date;
 
 import javax.xml.datatype.Duration;
@@ -8,9 +9,11 @@ import javax.xml.datatype.Duration;
  * Created by Adrian on 26.03.2017.
  */
 
-public class ActivitateDinamica extends Activitate {
+public class EvenimentDinamic extends Eveniment {
+
     private Duration duration ;
-    private Date deadline = new Date();
+
+    private Date deadline;
 
     public Duration getDuration() {
         return duration;
